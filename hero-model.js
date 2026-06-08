@@ -35,8 +35,15 @@ if (canvas && cover) {
   scene.add(fillLight);
 
   let model;
+  let modelPivot;
   let mixer;
   const clock = new THREE.Clock();
+  const pointerRotation = {
+    targetX: 0,
+    targetY: 0,
+    currentX: 0,
+    currentY: 0,
+  };
   let frameId = 0;
 
   const resize = () => {
@@ -68,10 +75,29 @@ if (canvas && cover) {
     frameId = requestAnimationFrame(animate);
     const delta = clock.getDelta();
     if (mixer) mixer.update(delta);
+    pointerRotation.currentX = THREE.MathUtils.lerp(pointerRotation.currentX, pointerRotation.targetX, 0.08);
+    pointerRotation.currentY = THREE.MathUtils.lerp(pointerRotation.currentY, pointerRotation.targetY, 0.08);
+    if (modelPivot) {
+      modelPivot.rotation.x = pointerRotation.currentX;
+      modelPivot.rotation.y = pointerRotation.currentY;
+    }
     if (model) {
       model.rotation.z = 0.04 + Math.sin(performance.now() * 0.0012) * 0.015;
     }
     renderer.render(scene, camera);
+  };
+
+  const updatePointerRotation = (event) => {
+    const rect = cover.getBoundingClientRect();
+    const x = THREE.MathUtils.clamp((event.clientX - rect.left) / rect.width, 0, 1);
+    const y = THREE.MathUtils.clamp((event.clientY - rect.top) / rect.height, 0, 1);
+    pointerRotation.targetY = (x - 0.5) * Math.PI * 2;
+    pointerRotation.targetX = (0.5 - y) * 0.34;
+  };
+
+  const resetPointerRotation = () => {
+    pointerRotation.targetX = 0;
+    pointerRotation.targetY = 0;
   };
 
   const loader = new GLTFLoader();
@@ -89,6 +115,8 @@ if (canvas && cover) {
         }
       });
       fitModel(model);
+      modelPivot = new THREE.Group();
+      modelPivot.add(model);
       if (gltf.animations.length) {
         const clip = gltf.animations.reduce((longest, candidate) => (candidate.duration > longest.duration ? candidate : longest), gltf.animations[0]);
         mixer = new THREE.AnimationMixer(model);
@@ -96,7 +124,7 @@ if (canvas && cover) {
         action.setLoop(THREE.LoopRepeat);
         action.play();
       }
-      scene.add(model);
+      scene.add(modelPivot);
       resize();
       animate();
     },
@@ -108,9 +136,13 @@ if (canvas && cover) {
 
   const observer = new ResizeObserver(resize);
   observer.observe(cover);
+  cover.addEventListener("pointermove", updatePointerRotation);
+  cover.addEventListener("pointerleave", resetPointerRotation);
   window.addEventListener("beforeunload", () => {
     cancelAnimationFrame(frameId);
     observer.disconnect();
+    cover.removeEventListener("pointermove", updatePointerRotation);
+    cover.removeEventListener("pointerleave", resetPointerRotation);
     renderer.dispose();
   });
 }

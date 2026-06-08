@@ -1,0 +1,12 @@
+services:
+  mixshare:
+    build: .
+    container_name: mixshare
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      PORT: 8090
+    ports:
+      - "8090:8090"
+    volumes:
+      - ./data.json:/app/data.json

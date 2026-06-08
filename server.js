@@ -7,6 +7,7 @@ const { Readable } = require("stream");
 const root = __dirname;
 const dataFile = path.join(root, "data.json");
 const port = Number(process.env.PORT || 8090);
+const host = process.env.HOST || "127.0.0.1";
 
 const platformRules = [
   { name: "网易云音乐", marker: /网易云音乐|163|netease/i, hosts: ["163cn.tv", "music.163.com", "y.music.163.com"] },
@@ -20,6 +21,7 @@ const mimeTypes = {
   ".css": "text/css; charset=utf-8",
   ".js": "application/javascript; charset=utf-8",
   ".json": "application/json; charset=utf-8",
+  ".glb": "model/gltf-binary",
   ".png": "image/png",
 };
 
@@ -639,6 +641,7 @@ http
     }
     serveStatic(req, res);
   })
-  .listen(port, "127.0.0.1", () => {
-    console.log(`MixShare running at http://127.0.0.1:${port}`);
+  .listen(port, host, () => {
+    const shownHost = host === "0.0.0.0" ? "127.0.0.1" : host;
+    console.log(`MixShare running at http://${shownHost}:${port}`);
   });

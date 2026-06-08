@@ -211,6 +211,8 @@ main {
   width: 100%;
   height: 100%;
   display: block;
+  cursor: ew-resize;
+  touch-action: none;
 }
 
 .hero-cover.model-error::after {

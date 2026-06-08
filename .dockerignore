@@ -1,0 +1,11 @@
+.git
+.agents
+.codex
+node_modules
+npm-debug.log*
+Dockerfile
+docker-compose.yml
+.dockerignore
+preview*.png
+preview-*.png
+*.log

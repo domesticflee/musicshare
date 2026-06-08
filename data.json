@@ -111,14 +111,14 @@
           "artist": "윤미래 / MFBTY",
           "source": "汽水音乐",
           "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=6872335870062495746&from_group_id=7592776765027270671&from_group_type=playlist",
-          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv95-se-zjwztc-luna.douyinvod.com%2F01dc09adcd4597d3de7a7cf4df437ef6%2F6a284efd%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3D6BtHqI1Hdss1CBE5vjNvjViZn37bKQJECiKydug3tqP2l_Q9H6KM%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3Dc0000e00018000%26dy_q%3D1780936527%26l%3D2026060900352790C3C34CCE1368EF4D0A",
+          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2F1c529814ae0d3b327aaf9e78affd527a%2F6a287ce8%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy4BeHuuD.5XONg2VvjpDt1q-TrKVdtBuRkaRIBO9UjVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3Dc0000e00018000%26dy_q%3D1780948282%26l%3D20260609035122449E20B870D871DADEC1",
           "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEGAePstEDvMFFqCtAgEAADZswAACfDqaE7fz0~c5_375x375.jpg",
           "playable": true,
           "playStatus": "可播放",
           "isReal": true,
           "colorA": "#aeaeae",
           "colorB": "#888888",
-          "previewFetchedAt": "2026-06-08T16:35:29.128Z"
+          "previewFetchedAt": "2026-06-08T19:51:24.794Z"
         },
         {
           "id": "7631076350845667345",
@@ -436,14 +436,14 @@
         "artist": "윤미래 / MFBTY",
         "source": "汽水音乐",
         "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=6872335870062495746&from_group_id=7592776765027270671&from_group_type=playlist",
-        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv95-se-zjwztc-luna.douyinvod.com%2F01dc09adcd4597d3de7a7cf4df437ef6%2F6a284efd%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3D6BtHqI1Hdss1CBE5vjNvjViZn37bKQJECiKydug3tqP2l_Q9H6KM%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3Dc0000e00018000%26dy_q%3D1780936527%26l%3D2026060900352790C3C34CCE1368EF4D0A",
+        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2F1c529814ae0d3b327aaf9e78affd527a%2F6a287ce8%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy4BeHuuD.5XONg2VvjpDt1q-TrKVdtBuRkaRIBO9UjVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3Dc0000e00018000%26dy_q%3D1780948282%26l%3D20260609035122449E20B870D871DADEC1",
         "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEGAePstEDvMFFqCtAgEAADZswAACfDqaE7fz0~c5_375x375.jpg",
         "playable": true,
         "playStatus": "可播放",
         "isReal": true,
         "colorA": "#aeaeae",
         "colorB": "#888888",
-        "previewFetchedAt": "2026-06-08T16:35:29.128Z"
+        "previewFetchedAt": "2026-06-08T19:51:24.794Z"
       },
       "stars": 0,
       "starredBy": [],
@@ -511,11 +511,11 @@
           "artist": "小宝",
           "source": "网易云音乐",
           "platformSongUrl": "https://music.163.com/#/song?id=2684667148",
-          "previewUrl": "http://m801.music.126.net/20260609010021/8374d188e0154bac7299e849713e8713/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/58738330524/4154/74ec/3e53/4d51bd1f525526106197d0f133e63dee.mp3?vuutv=wEgULNQI0vyXhSf/nRaOIZTtQhDhp/6/DgqAet1Pwq8en/IkFlCQWcC+RCsRhLgwqszk8ko/8YMKJCmYD29O/ol08L8TL7gO19OUTxg330k=&cdntag=bWFyaz1vc193ZWIscXVhbGl0eV9zdGFuZGFyZA",
+          "previewUrl": "http://m701.music.126.net/20260609041622/5cd95154bf3e2b91f546449b61344c08/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/58738330524/4154/74ec/3e53/4d51bd1f525526106197d0f133e63dee.mp3?vuutv=xV/FfqitOYnWQ6Vu5YSKaFfPfGzgC/v4WN90Hlu9dHA/kKjXDqAfCkLTBbx5sVO800V3HzjN3dGg+qnRi+xX+TSQ8cdk4yZiNXIJZy31h1U=&cdntag=bWFyaz1vc193ZWIscXVhbGl0eV9zdGFuZGFyZA",
           "albumPicUrl": "https://p1.music.126.net/giVKT_rJKdt2F_RCJ3LuRQ==/109951170612003941.jpg",
           "playable": true,
           "playStatus": "可播放",
-          "previewFetchedAt": "2026-06-08T16:35:22.822Z",
+          "previewFetchedAt": "2026-06-08T19:51:24.038Z",
           "isReal": true,
           "colorA": "#bef264",
           "colorB": "#fb7185"
@@ -558,11 +558,11 @@
         "artist": "小宝",
         "source": "网易云音乐",
         "platformSongUrl": "https://music.163.com/#/song?id=2684667148",
-        "previewUrl": "http://m801.music.126.net/20260609010021/8374d188e0154bac7299e849713e8713/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/58738330524/4154/74ec/3e53/4d51bd1f525526106197d0f133e63dee.mp3?vuutv=wEgULNQI0vyXhSf/nRaOIZTtQhDhp/6/DgqAet1Pwq8en/IkFlCQWcC+RCsRhLgwqszk8ko/8YMKJCmYD29O/ol08L8TL7gO19OUTxg330k=&cdntag=bWFyaz1vc193ZWIscXVhbGl0eV9zdGFuZGFyZA",
+        "previewUrl": "http://m701.music.126.net/20260609041622/5cd95154bf3e2b91f546449b61344c08/jdymusic/obj/wo3DlMOGwrbDjj7DisKw/58738330524/4154/74ec/3e53/4d51bd1f525526106197d0f133e63dee.mp3?vuutv=xV/FfqitOYnWQ6Vu5YSKaFfPfGzgC/v4WN90Hlu9dHA/kKjXDqAfCkLTBbx5sVO800V3HzjN3dGg+qnRi+xX+TSQ8cdk4yZiNXIJZy31h1U=&cdntag=bWFyaz1vc193ZWIscXVhbGl0eV9zdGFuZGFyZA",
         "albumPicUrl": "https://p1.music.126.net/giVKT_rJKdt2F_RCJ3LuRQ==/109951170612003941.jpg",
         "playable": true,
         "playStatus": "可播放",
-        "previewFetchedAt": "2026-06-08T16:35:22.822Z",
+        "previewFetchedAt": "2026-06-08T19:51:24.038Z",
         "isReal": true,
         "colorA": "#bef264",
         "colorB": "#fb7185"
@@ -658,14 +658,14 @@
           "artist": "윤미래 / MFBTY",
           "source": "汽水音乐",
           "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=6872335870062495746&from_group_id=7592776765027270671&from_group_type=playlist",
-          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-se-gddgtc-luna.douyinvod.com%2F01dc09adcd4597d3de7a7cf4df437ef6%2F6a284efd%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrKdALBuRkalrIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3D80000e00018000%26dy_q%3D1780936527%26l%3D20260609003527F335B438E2C30CDDC9DC",
+          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2F1c529814ae0d3b327aaf9e78affd527a%2F6a287ce8%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy4BeHuuD.5XONg2VvjpDt1q-TrKVdtBuRkazShO9UjVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3D80000e00018000%26dy_q%3D1780948282%26l%3D20260609035122D056DC193EA3E8051460",
           "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEGAePstEDvMFFqCtAgEAADZswAACfDqaE7fz0~c5_375x375.jpg",
           "playable": true,
           "playStatus": "可播放",
           "isReal": true,
           "colorA": "#aeaeae",
           "colorB": "#888888",
-          "previewFetchedAt": "2026-06-08T16:35:29.357Z"
+          "previewFetchedAt": "2026-06-08T19:51:24.649Z"
         },
         {
           "id": "7631076350845667345",
@@ -983,14 +983,14 @@
         "artist": "윤미래 / MFBTY",
         "source": "汽水音乐",
         "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=6872335870062495746&from_group_id=7592776765027270671&from_group_type=playlist",
-        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-se-gddgtc-luna.douyinvod.com%2F01dc09adcd4597d3de7a7cf4df437ef6%2F6a284efd%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrKdALBuRkalrIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3D80000e00018000%26dy_q%3D1780936527%26l%3D20260609003527F335B438E2C30CDDC9DC",
+        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2F1c529814ae0d3b327aaf9e78affd527a%2F6a287ce8%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoAFAmYne3debe31qvfsSAR6DOYb8Q1ONGoAKKy%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy4BeHuuD.5XONg2VvjpDt1q-TrKVdtBuRkazShO9UjVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZ2Q6ODNkaTw3aDplN2U5O0BpM3NudDk6Zmh5aDMzODlkNEBhYS1eXjRhX2MxYmEtLmI2YSMzYV5zcjRnY29gLS1kYS1zcw%253D%253D%26btag%3D80000e00018000%26dy_q%3D1780948282%26l%3D20260609035122D056DC193EA3E8051460",
         "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oEGAePstEDvMFFqCtAgEAADZswAACfDqaE7fz0~c5_375x375.jpg",
         "playable": true,
         "playStatus": "可播放",
         "isReal": true,
         "colorA": "#aeaeae",
         "colorB": "#888888",
-        "previewFetchedAt": "2026-06-08T16:35:29.357Z"
+        "previewFetchedAt": "2026-06-08T19:51:24.649Z"
       },
       "stars": 0,
       "starredBy": [],
@@ -1125,14 +1125,14 @@
           "artist": "音融三喜",
           "source": "汽水音乐",
           "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=7618415505784096795&from_group_id=7592776765027270671&from_group_type=playlist",
-          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-se-ex-alismart-luna.douyinvod.com%2F4ad84411855ea3bdf202c29a5989e0df%2F6a284f9e%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2Fo4CgNc0iQDsQiOVWiQBGiIMB6QEh39tACLfRiw%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrKdALBuRkaHVIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjU0MzhnZzM8aDw0aTNnOEBpM2pwcmo5cjozOTMzNDlkM0AxLS41XzAzNmAxMjJhY2MtYSMubmVeMmRjcHFhLS1kYTBzcw%253D%253D%26btag%3D80000e00028000%26dy_q%3D1780936527%26l%3D20260609003527BB4737D7D7AADBF3E4B3",
+          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2Ff52f8806100265dd36ebb070f91c5f27%2F6a287d8a%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2Fo4CgNc0iQDsQiOVWiQBGiIMB6QEh39tACLfRiw%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrK1dtBuRkavVIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjU0MzhnZzM8aDw0aTNnOEBpM2pwcmo5cjozOTMzNDlkM0AxLS41XzAzNmAxMjJhY2MtYSMubmVeMmRjcHFhLS1kYTBzcw%253D%253D%26btag%3Dc0000e00028000%26dy_q%3D1780948283%26l%3D20260609035122EDDC951E38EC18F0F66D",
           "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oAN7BefDQE80ZGptsVxjCuS17BSCcEUAFAAjEg~c5_375x375.jpg",
           "playable": true,
           "playStatus": "可播放",
           "isReal": true,
           "colorA": "#3e3f42",
           "colorB": "#19191a",
-          "previewFetchedAt": "2026-06-08T16:35:29.224Z"
+          "previewFetchedAt": "2026-06-08T19:51:24.788Z"
         },
         {
           "id": "7638530678712223794",
@@ -1408,14 +1408,14 @@
         "artist": "音融三喜",
         "source": "汽水音乐",
         "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=7618415505784096795&from_group_id=7592776765027270671&from_group_type=playlist",
-        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-se-ex-alismart-luna.douyinvod.com%2F4ad84411855ea3bdf202c29a5989e0df%2F6a284f9e%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2Fo4CgNc0iQDsQiOVWiQBGiIMB6QEh39tACLfRiw%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrKdALBuRkaHVIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjU0MzhnZzM8aDw0aTNnOEBpM2pwcmo5cjozOTMzNDlkM0AxLS41XzAzNmAxMjJhY2MtYSMubmVeMmRjcHFhLS1kYTBzcw%253D%253D%26btag%3D80000e00028000%26dy_q%3D1780936527%26l%3D20260609003527BB4737D7D7AADBF3E4B3",
+        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2Ff52f8806100265dd36ebb070f91c5f27%2F6a287d8a%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2Fo4CgNc0iQDsQiOVWiQBGiIMB6QEh39tACLfRiw%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrK1dtBuRkavVIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjU0MzhnZzM8aDw0aTNnOEBpM2pwcmo5cjozOTMzNDlkM0AxLS41XzAzNmAxMjJhY2MtYSMubmVeMmRjcHFhLS1kYTBzcw%253D%253D%26btag%3Dc0000e00028000%26dy_q%3D1780948283%26l%3D20260609035122EDDC951E38EC18F0F66D",
         "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/oAN7BefDQE80ZGptsVxjCuS17BSCcEUAFAAjEg~c5_375x375.jpg",
         "playable": true,
         "playStatus": "可播放",
         "isReal": true,
         "colorA": "#3e3f42",
         "colorB": "#19191a",
-        "previewFetchedAt": "2026-06-08T16:35:29.224Z"
+        "previewFetchedAt": "2026-06-08T19:51:24.788Z"
       },
       "stars": 1,
       "starredBy": [
@@ -1762,14 +1762,14 @@
           "artist": "DANXHIRA / BXBYSPESH",
           "source": "汽水音乐",
           "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=7514346006897707025&from_group_id=7592776765027270671&from_group_type=playlist",
-          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv95-se-zjwztc-luna.douyinvod.com%2F41b4fd11026689035e939a5e0b207a08%2F6a284f1b%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoIbKNO190AAWv5z8A0iiwRBnWnBs5FnMIgfzoh%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3D6BtHqI1Hdss1CBE5vjNvjViZn37bKQJECiKydug3aTqmQAQ9H6KM%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DaGZoOGY4ZDo4ZDM0NzVmNUBpanNpOW45cm01NzMzODlkNEBgYF4vXl4wXjQxMi5gMy4vYSNyNHJkMmRzZXJhLS1kYS1zcw%253D%253D%26btag%3D80000e00028000%26dy_q%3D1780936527%26l%3D202606090035274F0B4FF3BA6171F4CF64",
+          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2Fc75cf750484e178ee77929141d697299%2F6a287d06%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoIbKNO190AAWv5z8A0iiwRBnWnBs5FnMIgfzoh%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy4BeHuuD.5XONg2VvjpDt1q-TrKVdtBuRkasShO9UjVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DaGZoOGY4ZDo4ZDM0NzVmNUBpanNpOW45cm01NzMzODlkNEBgYF4vXl4wXjQxMi5gMy4vYSNyNHJkMmRzZXJhLS1kYS1zcw%253D%253D%26btag%3Dc0000e00028000%26dy_q%3D1780948282%26l%3D20260609035122D7650DDCE4B4DAEE23EC",
           "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o8AACdiEEAw07GLf1LioZCBU6vd33WBTBAJsA1~c5_375x375.jpg",
           "playable": true,
           "playStatus": "可播放",
           "isReal": true,
           "colorA": "#39304f",
           "colorB": "#161221",
-          "previewFetchedAt": "2026-06-08T16:35:29.214Z"
+          "previewFetchedAt": "2026-06-08T19:51:24.470Z"
         },
         {
           "id": "7595060877240371215",
@@ -1835,14 +1835,14 @@
         "artist": "DANXHIRA / BXBYSPESH",
         "source": "汽水音乐",
         "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=7514346006897707025&from_group_id=7592776765027270671&from_group_type=playlist",
-        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv95-se-zjwztc-luna.douyinvod.com%2F41b4fd11026689035e939a5e0b207a08%2F6a284f1b%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoIbKNO190AAWv5z8A0iiwRBnWnBs5FnMIgfzoh%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3D6BtHqI1Hdss1CBE5vjNvjViZn37bKQJECiKydug3aTqmQAQ9H6KM%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DaGZoOGY4ZDo4ZDM0NzVmNUBpanNpOW45cm01NzMzODlkNEBgYF4vXl4wXjQxMi5gMy4vYSNyNHJkMmRzZXJhLS1kYS1zcw%253D%253D%26btag%3D80000e00028000%26dy_q%3D1780936527%26l%3D202606090035274F0B4FF3BA6171F4CF64",
+        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-ex-luna.douyinvod.com%2Fc75cf750484e178ee77929141d697299%2F6a287d06%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoIbKNO190AAWv5z8A0iiwRBnWnBs5FnMIgfzoh%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy4BeHuuD.5XONg2VvjpDt1q-TrKVdtBuRkasShO9UjVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DaGZoOGY4ZDo4ZDM0NzVmNUBpanNpOW45cm01NzMzODlkNEBgYF4vXl4wXjQxMi5gMy4vYSNyNHJkMmRzZXJhLS1kYS1zcw%253D%253D%26btag%3Dc0000e00028000%26dy_q%3D1780948282%26l%3D20260609035122D7650DDCE4B4DAEE23EC",
         "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/o8AACdiEEAw07GLf1LioZCBU6vd33WBTBAJsA1~c5_375x375.jpg",
         "playable": true,
         "playStatus": "可播放",
         "isReal": true,
         "colorA": "#39304f",
         "colorB": "#161221",
-        "previewFetchedAt": "2026-06-08T16:35:29.214Z"
+        "previewFetchedAt": "2026-06-08T19:51:24.470Z"
       },
       "stars": 0,
       "starredBy": [],
@@ -2019,14 +2019,14 @@
           "artist": "娟儿",
           "source": "汽水音乐",
           "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=7635536267854628883&from_group_id=7592776765027270671&from_group_type=playlist",
-          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-se-ex-alismart-luna.douyinvod.com%2F99f5ee9d283a0f6eb42457ff4cb0e276%2F6a284fa4%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoQutmTCtIfjcFL8fzAGgLAByX1M7CEG8axbezT%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrKdALBuRkaNDIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjo6Z2k5Njk1ZDlkOjs5N0Bpam5obnk5cnBoOjMzNDlkM0BjYTEtMmIvNjYxYjQyLzFfYSNsbTIyMmRrNm9hLS1kYTBzcw%253D%253D%26btag%3Dc0000e00028000%26dy_q%3D1780936527%26l%3D2026060900352720967D42FCE9DAD46433",
+          "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv95-se-zjwztc-luna.douyinvod.com%2Fe3559cd1ce3cefee68fc025221b0515d%2F6a287d90%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoQutmTCtIfjcFL8fzAGgLAByX1M7CEG8axbezT%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3D6BtHqI1Hdss1CBE5vjNvjViZn37bKQJENCbydug38GAmQAQ9H6KM%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjo6Z2k5Njk1ZDlkOjs5N0Bpam5obnk5cnBoOjMzNDlkM0BjYTEtMmIvNjYxYjQyLzFfYSNsbTIyMmRrNm9hLS1kYTBzcw%253D%253D%26btag%3D80000e00028000%26dy_q%3D1780948283%26l%3D20260609035122007DB28B199413EAFDEB",
           "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/osNuID9wECDbfSAt0A5ElFTAtEDZgAF1p2Bpbf~c5_375x375.jpg",
           "playable": true,
           "playStatus": "可播放",
           "isReal": true,
           "colorA": "#2c4753",
           "colorB": "#101d23",
-          "previewFetchedAt": "2026-06-08T16:35:29.545Z"
+          "previewFetchedAt": "2026-06-08T19:51:24.656Z"
         },
         {
           "id": "7629049006719862820",
@@ -2260,14 +2260,14 @@
         "artist": "娟儿",
         "source": "汽水音乐",
         "platformSongUrl": "https://music.douyin.com/qishui/share/track?track_id=7635536267854628883&from_group_id=7592776765027270671&from_group_type=playlist",
-        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv5-se-ex-alismart-luna.douyinvod.com%2F99f5ee9d283a0f6eb42457ff4cb0e276%2F6a284fa4%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoQutmTCtIfjcFL8fzAGgLAByX1M7CEG8axbezT%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3DH6XWy-DnFuuD.WEONn26vjp~fytLjrKdALBuRkaNDIupejVhWL6%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjo6Z2k5Njk1ZDlkOjs5N0Bpam5obnk5cnBoOjMzNDlkM0BjYTEtMmIvNjYxYjQyLzFfYSNsbTIyMmRrNm9hLS1kYTBzcw%253D%253D%26btag%3Dc0000e00028000%26dy_q%3D1780936527%26l%3D2026060900352720967D42FCE9DAD46433",
+        "previewUrl": "/api/audio-proxy?url=https%3A%2F%2Fv95-se-zjwztc-luna.douyinvod.com%2Fe3559cd1ce3cefee68fc025221b0515d%2F6a287d90%2Fvideo%2Ftos%2Fcn%2Ftos-cn-ve-2774%2FoQutmTCtIfjcFL8fzAGgLAByX1M7CEG8axbezT%2F%3Fa%3D8478%26ch%3D0%26cr%3D5%26dr%3D0%26cd%3D0%257C0%257C0%257C5%26br%3D126%26bt%3D126%26ft%3D6BtHqI1Hdss1CBE5vjNvjViZn37bKQJENCbydug38GAmQAQ9H6KM%26mime_type%3Daudio_mp4%26qs%3D6%26rc%3DZjo6Z2k5Njk1ZDlkOjs5N0Bpam5obnk5cnBoOjMzNDlkM0BjYTEtMmIvNjYxYjQyLzFfYSNsbTIyMmRrNm9hLS1kYTBzcw%253D%253D%26btag%3D80000e00028000%26dy_q%3D1780948283%26l%3D20260609035122007DB28B199413EAFDEB",
         "albumPicUrl": "https://p3-luna.douyinpic.com/img/tos-cn-v-2774c002/osNuID9wECDbfSAt0A5ElFTAtEDZgAF1p2Bpbf~c5_375x375.jpg",
         "playable": true,
         "playStatus": "可播放",
         "isReal": true,
         "colorA": "#2c4753",
         "colorB": "#101d23",
-        "previewFetchedAt": "2026-06-08T16:35:29.545Z"
+        "previewFetchedAt": "2026-06-08T19:51:24.656Z"
       },
       "stars": 0,
       "starredBy": [],

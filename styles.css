@@ -978,14 +978,35 @@ label span {
   }
 
   .hero-art {
-    min-height: 13.5rem;
+    min-height: 16.35rem;
+  }
+
+  .hero-cover {
+    top: 0.9rem;
+    right: 0.9rem;
+    bottom: 6.9rem;
+    left: 0.9rem;
   }
 
   .hero-copy p:not(.eyebrow) {
     font-size: 0.95rem;
   }
 
-  .platform-strip,
+  .platform-strip {
+    right: 0.9rem;
+    bottom: 0.95rem;
+    left: 0.9rem;
+    gap: 0.45rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .platform-strip span {
+    min-height: 2.45rem;
+    display: grid;
+    place-items: center;
+    padding: 0.35rem;
+  }
+
   .hero-stats {
     grid-template-columns: repeat(2, 1fr);
   }

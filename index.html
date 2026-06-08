@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MixShare 歌单分享</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="liquid-bg"></div>
+
+    <header class="app-shell glass">
+      <a class="brand" href="#" aria-label="MixShare 首页">
+        <span class="brand-mark">M</span>
+        <span>
+          <strong>MixShare</strong>
+          <small>移动歌单广场</small>
+        </span>
+      </a>
+      <button class="pill ghost" id="authButton" type="button">登录</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card glass">
+          <div class="hero-art" aria-hidden="true">
+            <div class="hero-cover">
+              <canvas id="heroModel" class="hero-model"></canvas>
+            </div>
+            <div class="platform-strip">
+              <span>网易云</span>
+              <span>汽水</span>
+              <span>QQ</span>
+              <span>酷狗</span>
+            </div>
+          </div>
+          <div class="hero-copy">
+            <p class="eyebrow">Paste, pick, share</p>
+            <h1>一贴成卡</h1>
+            <p>分享歌单，一键发布。</p>
+            <form class="hero-publish" id="heroPublishForm">
+              <label for="heroShareText">分享歌单字符串</label>
+              <div class="hero-publish-row">
+                <textarea
+                  id="heroShareText"
+                  rows="2"
+                  placeholder="歌单｜我喜欢的音乐 https://qishui.douyin.com/s/iQxRTaPn/ @汽水音乐"
+                ></textarea>
+                <button class="pill primary" type="submit">发布</button>
+              </div>
+            </form>
+            <div class="hero-stats" aria-label="歌单卡状态">
+              <span>真实曲目</span>
+              <span>主打封面</span>
+              <span>Star 排名</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="view active" id="discoverView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Discover</p>
+            <h2>最新分享</h2>
+          </div>
+          <select id="rankMode" aria-label="排序方式">
+            <option value="new">发布时间最新</option>
+            <option value="star">Star 排名</option>
+          </select>
+        </div>
+        <div class="feed" id="playlistFeed"></div>
+      </section>
+
+      <section class="view" id="publishView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Publish</p>
+            <h2>发布歌单</h2>
+          </div>
+          <button class="mini-btn" type="button" data-view-jump="discover">返回发现</button>
+        </div>
+
+        <form class="publish-panel glass" id="publishForm">
+          <div class="gate" id="publishGate">
+            <div>
+              <h3>登录后发布</h3>
+              <p>创建用户名和密码后即可发布，不需要邮箱验证。</p>
+              <button class="pill primary" type="button" data-auth-open>去登录</button>
+            </div>
+          </div>
+
+          <label>
+            <span>平台分享字符串</span>
+            <textarea
+              name="shareText"
+              id="shareText"
+              required
+              placeholder="歌单｜我喜欢的音乐 https://qishui.douyin.com/s/iQxRTaPn/ @汽水音乐"
+            ></textarea>
+          </label>
+
+          <div class="parse-card" id="parseCard">
+            <span>等待提取</span>
+            <strong>粘贴分享字符串后自动识别平台和链接</strong>
+          </div>
+
+          <div class="track-picker" id="trackPicker"></div>
+
+          <button class="pill primary wide" type="submit">发布到发现页</button>
+        </form>
+      </section>
+
+      <section class="view" id="savedView">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Stars</p>
+            <h2>我的收藏</h2>
+          </div>
+          <button class="mini-btn" type="button" data-view-jump="discover">返回发现</button>
+          <p id="savedMeta"></p>
+        </div>
+        <div class="feed" id="savedFeed"></div>
+      </section>
+    </main>
+
+    <section class="visualizer glass" id="visualizer" aria-live="polite">
+      <div class="player-meta">
+        <span id="nowPlaying">点击播放预览</span>
+        <strong id="nowPlayingTitle">还没有播放</strong>
+      </div>
+      <button class="player-toggle" id="playerToggle" type="button" aria-label="播放或暂停" disabled>
+        <span class="pause-icon" aria-hidden="true"></span>
+      </button>
+      <div class="bars" aria-hidden="true">
+        <i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+      </div>
+    </section>
+
+    <dialog class="auth-dialog glass" id="authDialog">
+      <form method="dialog" class="auth-form" id="authForm">
+        <button class="close" value="cancel" aria-label="关闭" type="button" data-auth-close>x</button>
+        <p class="eyebrow">Account</p>
+        <h2>登录或创建账号</h2>
+        <label>
+          <span>用户名</span>
+          <input name="username" required minlength="2" maxlength="16" autocomplete="username" />
+        </label>
+        <label>
+          <span>密码</span>
+          <input name="password" required minlength="4" maxlength="32" type="password" autocomplete="current-password" />
+        </label>
+        <button class="pill primary wide" value="default" type="submit">进入 MixShare</button>
+      </form>
+    </dialog>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.165.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.165.0/examples/jsm/"
+        }
+      }
+    </script>
+    <script type="module" src="hero-model.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
